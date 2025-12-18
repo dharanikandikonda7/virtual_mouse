@@ -35,35 +35,35 @@ All operations are performed in **real-time** through webcam input.
 <table>
   <tr>
     <td align="center">
-      <img src="IMG-20251218-WA0052.jpg" alt="Stop Mouse" width="150px"/><br>
+      <img src="images/IMG-20251218-WA0052.jpg" alt="Stop Mouse" width="150px"/><br>
       <sub>Stop Mouse</sub>
     </td>
     <td align="center">
-      <img src="IMG-20251218-WA0053.jpg" alt="Scroll Up" width="150px"/><br>
+      <img src="images/IMG-20251218-WA0053.jpg" alt="Scroll Up" width="150px"/><br>
       <sub>Scroll Up</sub>
     </td>
     <td align="center">
-      <img src="IMG-20251218-WA0054.jpg" alt="Scroll Down" width="150px"/><br>
+      <img src="images/IMG-20251218-WA0054.jpg" alt="Scroll Down" width="150px"/><br>
       <sub>Scroll Down</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="IMG-20251218-WA0055.jpg" alt="Right Click" width="150px"/><br>
+      <img src="images/IMG-20251218-WA0055.jpg" alt="Right Click" width="150px"/><br>
       <sub>Right Click</sub>
     </td>
     <td align="center">
-      <img src="IMG-20251218-WA0056.jpg" alt="Left Click" width="150px"/><br>
+      <img src="images/IMG-20251218-WA0056.jpg" alt="Left Click" width="150px"/><br>
       <sub>Left Click</sub>
     </td>
     <td align="center" colspan="3">
-      <img src="WhatsApp Image 2025-12-18 at 22.32.17_eba967e6.jpg" alt="Mouse Movement" width="250px"/><br>
+      <img src="images/WhatsApp Image 2025-12-18 at 22.32.17_eba967e6.jpg" alt="Mouse Movement" width="250px"/><br>
       <sub>Mouse Movement</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="IMG-20251218-WA0058.jpg" alt="Brightness and Volume Control" width="150px"/><br>
+      <img src="images/IMG-20251218-WA0058.jpg" alt="Brightness and Volume Control" width="150px"/><br>
       <sub>Brightness & Volume</sub>
     </td>
   </tr>
