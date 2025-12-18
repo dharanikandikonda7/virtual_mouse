@@ -29,6 +29,8 @@ All operations are performed in **real-time** through webcam input.
 
 ---
 
+![Stop Mouse](IMG-20251218-WA0052.jpg) ![Scroll UP](IMG-20251218-WA0053.jpg) ![scroll Down](IMG-20251218-WA0054.jpg) ![Right Click](IMG-20251218-WA0055.jpg) ![left Click](IMG-20251218-WA0056.jpg) ![Brightness and Volume Control](IMG-20251218-WA0058.jpg)   ![Mouse Movement](<WhatsApp Image 2025-12-18 at 22.32.17_eba967e6.jpg>)
+
 ## ✋ Two-Hand vs One-Hand Logic
 
 - **Two Hands Visible** → Activates **brightness and volume control**  
