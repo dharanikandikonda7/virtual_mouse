@@ -56,15 +56,15 @@ All operations are performed in **real-time** through webcam input.
       <img src="IMG-20251218-WA0056.jpg" alt="Left Click" width="150px"/><br>
       <sub>Left Click</sub>
     </td>
-    <td align="center">
-      <img src="IMG-20251218-WA0058.jpg" alt="Brightness and Volume Control" width="150px"/><br>
-      <sub>Brightness & Volume</sub>
-    </td>
-  </tr>
-  <tr>
     <td align="center" colspan="3">
       <img src="WhatsApp Image 2025-12-18 at 22.32.17_eba967e6.jpg" alt="Mouse Movement" width="250px"/><br>
       <sub>Mouse Movement</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="IMG-20251218-WA0058.jpg" alt="Brightness and Volume Control" width="150px"/><br>
+      <sub>Brightness & Volume</sub>
     </td>
   </tr>
 </table>
