@@ -30,14 +30,44 @@ All operations are performed in **real-time** through webcam input.
 ---
 
 ## 🖼️ Gesture Examples
+## 🖼️ Gesture Examples
 
-<img src="IMG-20251218-WA0052.jpg" alt="Stop Mouse" width="200px" /> <sub>Stop Mouse</sub>  
-<img src="IMG-20251218-WA0053.jpg" alt="Scroll Up" width="200px" /> <sub>Scroll Up</sub>  
-<img src="IMG-20251218-WA0054.jpg" alt="Scroll Down" width="200px" /> <sub>Scroll Down</sub>  
-<img src="IMG-20251218-WA0055.jpg" alt="Right Click" width="200px" /> <sub>Right Click</sub>  
-<img src="IMG-20251218-WA0056.jpg" alt="Left Click" width="200px" /> <sub>Left Click</sub>  
-<img src="IMG-20251218-WA0058.jpg" alt="Brightness and Volume Control" width="200px" /> <sub>Brightness & Volume</sub>  
-<img src="WhatsApp Image 2025-12-18 at 22.32.17_eba967e6.jpg" alt="Mouse Movement" width="200px" /> <sub>Mouse Movement</sub>  
+<table>
+  <tr>
+    <td align="center">
+      <img src="IMG-20251218-WA0052.jpg" alt="Stop Mouse" width="150px"/><br>
+      <sub>Stop Mouse</sub>
+    </td>
+    <td align="center">
+      <img src="IMG-20251218-WA0053.jpg" alt="Scroll Up" width="150px"/><br>
+      <sub>Scroll Up</sub>
+    </td>
+    <td align="center">
+      <img src="IMG-20251218-WA0054.jpg" alt="Scroll Down" width="150px"/><br>
+      <sub>Scroll Down</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="IMG-20251218-WA0055.jpg" alt="Right Click" width="150px"/><br>
+      <sub>Right Click</sub>
+    </td>
+    <td align="center">
+      <img src="IMG-20251218-WA0056.jpg" alt="Left Click" width="150px"/><br>
+      <sub>Left Click</sub>
+    </td>
+    <td align="center">
+      <img src="IMG-20251218-WA0058.jpg" alt="Brightness and Volume Control" width="150px"/><br>
+      <sub>Brightness & Volume</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="3">
+      <img src="WhatsApp Image 2025-12-18 at 22.32.17_eba967e6.jpg" alt="Mouse Movement" width="250px"/><br>
+      <sub>Mouse Movement</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
