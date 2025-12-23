@@ -1,57 +1,51 @@
-import tkinter as tk
-from tkinter import messagebox
+import streamlit as st
 import subprocess
 import sys
 import os
 
-process = None  # Global variable to store the subprocess
+# Initialize process in session state
+if "process" not in st.session_state:
+    st.session_state.process = None
 
 
 def start_finalvm():
-    global process
-    if process is None:
-        # Ask for camera permission
-        if not messagebox.askyesno("Camera Permission", "Allow camera access to start?"):
+    if st.session_state.process is None:
+        # Camera permission
+        if not st.session_state.camera_permission:
+            st.warning("Camera access not allowed.")
             return
-        # Run finalvm.py as a separate process
-        process = subprocess.Popen([sys.executable, "finalvm.py"], cwd=os.getcwd())
+        st.session_state.process = subprocess.Popen(
+            [sys.executable, "finalvm.py"],
+            cwd=os.getcwd()
+        )
+        st.success("Virtual Gesture Controller started.")
     else:
-        messagebox.showinfo("Already Running", "Virtual Gesture Controller is already running.")
+        st.info("Virtual Gesture Controller is already running.")
 
 
 def stop_finalvm():
-    global process
-    if process:
-        process.terminate()  # Stop the subprocess
-        process = None
-        messagebox.showinfo("Stopped", "Virtual Gesture Controller stopped.")
+    if st.session_state.process:
+        st.session_state.process.terminate()
+        st.session_state.process = None
+        st.success("Virtual Gesture Controller stopped.")
     else:
-        messagebox.showinfo("Not Running", "Virtual Gesture Controller is not running.")
+        st.info("Virtual Gesture Controller is not running.")
 
 
 def exit_app():
     stop_finalvm()
-    root.destroy()
+    st.stop()
 
 
-# ---------------- GUI ----------------
-root = tk.Tk()
-root.title("Virtual Gesture Controller GUI")
-root.geometry("400x300")
-root.resizable(False, False)
+# ---------------- UI ----------------
+st.set_page_config(page_title="Virtual Gesture Controller", layout="centered")
 
-tk.Label(root, text="Virtual Gesture Controller", font=("Arial", 18, "bold")).pack(pady=30)
+st.title("Virtual Gesture Controller")
 
-tk.Button(root, text="Start", font=("Arial", 14),
-          width=15, bg="green", fg="white",
-          command=start_finalvm).pack(pady=15)
+st.session_state.camera_permission = st.checkbox(
+    "Allow camera access to start?"
+)
 
-tk.Button(root, text="Stop", font=("Arial", 14),
-          width=15, bg="orange", fg="white",
-          command=stop_finalvm).pack(pady=15)
-
-tk.Button(root, text="Exit", font=("Arial", 14),
-          width=15, bg="red", fg="white",
-          command=exit_app).pack(pady=15)
-
-root.mainloop()
+st.button("Start", on_click=start_finalvm)
+st.button("Stop", on_click=stop_finalvm)
+st.button("Exit", on_click=exit_app)
